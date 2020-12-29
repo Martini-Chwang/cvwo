@@ -1,0 +1,23 @@
+input[type=radio] {
+  text-align: center;
+  cursor: pointer;
+  text-align: block;
+  margin-top: 3px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+input[type=radio]:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+.radioItem {
+  margin-right: 5px;
+  text-align: center;
+}
+
+.priorityBox {
+  display: flex;
+  margin-bottom: 5px;
+}
