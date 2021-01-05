@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  background-color: #C0C0C0;
+}
+
+hr {
+  background: black;
+}
+
+.header {
+  width: 300px;
+  text-align: center;
+  background-color: pink;
+  box-shadow: 3px 3px gray;
+  margin-bottom: 10px;
+}
+
+.item {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: cyan;
+  width: 300px;
+  box-shadow: 3px 3px #1a75ff;
+}
+
+.itemForm {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: cyan;
+  width: 600px;
+  box-shadow: 3px 3px #1a75ff;
+}
+
+button {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 5px 5px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px gray;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #C0C0C0;
+  transform: translateY(2px);
+}
+
+.newTask  {
+  width: 300px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
